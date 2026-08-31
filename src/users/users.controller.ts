@@ -15,5 +15,4 @@ export class UsersController {
   remove(@Param('id') id: string) {
     return { message: `Admin removed user #${id}` };
   }
-
 }
