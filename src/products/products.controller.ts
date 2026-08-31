@@ -6,7 +6,7 @@ export class ProductsController {
   @Get(':id')
   findOne(@Param('id', PositiveIntPipe) id: number) {
     return {
-      message: `Product #${id} found!`
+      message: `Product #${id} found!`,
     };
   }
 }
