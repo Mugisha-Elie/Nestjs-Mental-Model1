@@ -1,0 +1,30 @@
+{
+  "default_branch": "dev",
+  "branches": [
+    "dev",
+    "feat/dynamic-module",
+    "feat/positive-int-pipe",
+    "feat/response-interceptor",
+    "feat/roles-guard",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "dev": null,
+    "feat/dynamic-module": "dev",
+    "feat/positive-int-pipe": "dev",
+    "feat/response-interceptor": "dev",
+    "feat/roles-guard": "dev",
+    "main": "dev",
+    "origin": "dev"
+  },
+  "order": [
+    "dev",
+    "feat/dynamic-module",
+    "feat/positive-int-pipe",
+    "feat/response-interceptor",
+    "feat/roles-guard",
+    "main",
+    "origin"
+  ]
+}
